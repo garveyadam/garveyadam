@@ -1,0 +1,5 @@
+Contact: mailto:info@garveyadam.com
+Expires: 2027-01-30T00:00:00.000Z
+Preferred-Languages: en
+Canonical: https://garveyadam.com/.well-known/security.txt
+Policy: https://garveyadam.com/privacy-policy.html

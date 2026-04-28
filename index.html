@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <title>Garvey Adam LLP | Intellectual Property Counsel</title>
+  <meta name="description" content="Strategic intellectual property counsel for patents, trademarks, copyrights, and trade secrets. Protecting innovation for forward-thinking companies." />
+  <meta name="robots" content="index,follow" />
+  <link rel="canonical" href="https://garveyadam.com/" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Garvey Adam LLP | Intellectual Property Counsel" />
+  <meta property="og:description" content="Strategic intellectual property counsel for patents, trademarks, copyrights, and trade secrets." />
+  <meta property="og:url" content="https://garveyadam.com/" />
+  <meta property="og:image" content="https://garveyadam.com/og.jpg" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Garvey Adam LLP | Intellectual Property Counsel" />
+  <meta name="twitter:description" content="Strategic intellectual property counsel for patents, trademarks, copyrights, and trade secrets." />
+  <meta name="twitter:image" content="https://garveyadam.com/og.jpg" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://app.cal.com">
+  <link rel="dns-prefetch" href="https://formspree.io">
+
+  <!-- Headline serif: swap — visual impact warrants brief fallback period -->
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&display=swap" rel="stylesheet">
+  <!-- Body sans-serif: optional — no layout shift; uses system font if not cached -->
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=optional" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LegalService",
+    "name": "Garvey Adam LLP",
+    "url": "https://garveyadam.com/",
+    "telephone": "+1-714-924-4377",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "19800 MacArthur Blvd., Ste. 1070",
+      "addressLocality": "Irvine",
+      "addressRegion": "CA",
+      "postalCode": "92612",
+      "addressCountry": "US"
+    },
+    "areaServed": "US",
+    "description": "Strategic intellectual property counsel for patents, trademarks, copyrights, and trade secrets.",
+    "serviceType": [
+      "Patent prosecution and strategy",
+      "Trademark clearance and registration",
+      "Copyright protection",
+      "Trade secret counseling",
+      "IP portfolio management"
+    ]
+  }
+  </script>
+</head>
+
+<body>
+  <a href="#main" class="skip-link">Skip to content</a>
+
+  <!-- Sticky Navigation -->
+  <nav class="fixed inset-x-0 top-0 z-50 sticky-nav">
+    <div class="max-w-7xl mx-auto px-5 sm:px-8 py-5 flex items-center justify-between gap-6">
+      <a href="#top" class="nav-logo-link flex items-center gap-3" aria-label="Garvey Adam LLP Home">
+        <img src="logo-branded.svg" alt="Garvey Adam LLP" class="h-10 w-auto" width="41" height="40" fetchpriority="high" />
+        <div class="leading-none">
+          <span class="text-xl font-bold tracking-tight" style="font-family: var(--font-serif);">GARVEY ADAM</span>
+          <span class="text-sm tracking-widest ml-1.5" style="color: var(--primary-blue); font-family: var(--font-serif);">LLP</span>
+        </div>
+      </a>
+
+      <!-- Desktop nav links -->
+      <div class="hidden lg:flex items-center gap-10 text-xs font-bold uppercase tracking-widest text-subdued">
+        <a href="#services" class="nav-link-animated hover:text-black transition-colors">Services</a>
+        <a href="#approach" class="nav-link-animated hover:text-black transition-colors">Approach</a>
+        <a href="#expertise" class="nav-link-animated hover:text-black transition-colors">Expertise</a>
+        <a href="#contact" class="nav-link-animated hover:text-black transition-colors">Contact</a>
+      </div>
+
+      <!-- Right: phone + hamburger -->
+      <div class="flex items-center gap-3">
+        <a href="tel:7149244377" class="hidden sm:inline text-sm font-semibold hover:text-black transition-colors" style="color: var(--primary-blue);">
+          (714) 924-4377
+        </a>
+        <button
+          id="menu-toggle"
+          class="hamburger-btn lg:hidden"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+          aria-label="Open navigation menu">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile menu drawer -->
+    <div id="mobile-menu" class="mobile-menu lg:hidden" aria-hidden="true">
+      <div class="max-w-7xl mx-auto px-5 sm:px-8 py-4">
+        <nav aria-label="Mobile navigation">
+          <a href="#services" class="mobile-nav-link">Services</a>
+          <a href="#approach" class="mobile-nav-link">Approach</a>
+          <a href="#expertise" class="mobile-nav-link">Expertise</a>
+          <a href="#contact" class="mobile-nav-link">Contact</a>
+        </nav>
+        <div class="py-5 flex flex-col gap-3">
+          <a href="tel:7149244377" class="mobile-nav-phone">(714) 924-4377</a>
+          <a href="#contact" class="btn-primary text-center">
+            <span>Schedule Consultation</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <header id="top" class="hero-pattern pt-40 sm:pt-48 pb-24 sm:pb-32">
+    <div class="max-w-7xl mx-auto px-5 sm:px-8">
+      <div class="grid lg:grid-cols-12 gap-12 items-center">
+        <div class="lg:col-span-7">
+          <h1 class="text-5xl sm:text-6xl lg:text-7xl text-white leading-[1.1] animate-in">
+            Intellectual Property <span style="color: var(--accent-blue);">Counsel</span> for Innovators
+          </h1>
+
+          <div class="detail-line animate-in animate-delay-2" style="background: var(--accent-blue);" aria-hidden="true"></div>
+
+          <p class="mt-6 text-lg leading-relaxed max-w-2xl animate-in animate-delay-2" style="color: rgba(250, 250, 248, 0.85);">
+            We protect what makes your business valuable: inventions, brands, creative works, and proprietary knowledge.
+            Strategic IP counsel built for companies that create, compete, and scale.
+          </p>
+
+          <div class="mt-10 flex flex-col sm:flex-row gap-4 animate-in animate-delay-3">
+            <a href="#contact" class="btn-primary text-center">
+              <span>Schedule Consultation</span>
+            </a>
+            <a href="tel:7149244377" class="btn-secondary text-center" style="border-color: rgba(250, 250, 248, 0.3); color: var(--off-white);">
+              (714) 924-4377
+            </a>
+          </div>
+        </div>
+
+        <aside class="lg:col-span-5 animate-in animate-delay-3">
+          <div class="card p-10 relative">
+            <div class="corner-accent top-left" aria-hidden="true"></div>
+            <div class="corner-accent bottom-right" aria-hidden="true"></div>
+
+            <div class="section-number" style="margin-bottom: 1.5rem;">Strategic IP</div>
+
+            <h2 class="text-2xl mb-5" style="color: var(--charcoal);">Why IP Protection Matters</h2>
+
+            <div class="space-y-4 text-sm leading-relaxed text-muted">
+              <p>
+                <strong style="color: var(--charcoal);">Patents</strong> prevent competitors from copying your innovations and create valuable business assets.
+              </p>
+              <p>
+                <strong style="color: var(--charcoal);">Trademarks</strong> protect brand identity and customer goodwill while enabling market expansion.
+              </p>
+              <p>
+                <strong style="color: var(--charcoal);">Trade Secrets</strong> safeguard competitive advantages that give you an edge in the marketplace.
+              </p>
+              <p>
+                <strong style="color: var(--charcoal);">Copyrights</strong> secure ownership of creative works and software, supporting licensing and monetization.
+              </p>
+            </div>
+
+            <div class="detail-line" style="margin: 2rem 0;" aria-hidden="true"></div>
+
+            <a href="#contact" class="btn-primary w-full text-center">
+              <span>Get Started</span>
+            </a>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- Services -->
+    <section id="services" class="py-24 sm:py-32">
+      <div class="max-w-7xl mx-auto px-5 sm:px-8">
+        <div class="max-w-3xl">
+          <div class="section-number">01 — Core Services</div>
+          <h2 class="text-4xl sm:text-5xl mb-6">Intellectual Property Services</h2>
+          <p class="text-lg leading-relaxed text-muted">
+            Comprehensive IP counsel across patents, trademarks, copyrights, and trade secrets—
+            designed to protect innovation, build defensible portfolios, and support business growth.
+          </p>
+        </div>
+
+        <div class="mt-16 grid sm:grid-cols-2 lg:grid-cols-12 gap-6">
+
+          <!-- Primary services — wide format -->
+          <div class="card card-hover p-10 relative lg:col-span-6">
+            <div class="text-xs font-bold tracking-widest mb-5" style="color: var(--accent-blue);">PATENT LAW</div>
+            <h3 class="text-2xl mb-4">Patent Filing & Prosecution</h3>
+            <p class="text-sm leading-relaxed text-muted">
+              Strategic <strong>utility and design patent</strong> applications. We help inventors
+              secure robust protection for mechanical, electrical, software, and medical device innovations.
+              Our prosecution strategy is designed to maximize claim scope and withstand validity challenges.
+            </p>
+          </div>
+
+          <div class="card card-hover p-10 relative lg:col-span-6">
+            <div class="text-xs font-bold tracking-widest mb-5" style="color: var(--accent-blue);">TRADEMARK LAW</div>
+            <h3 class="text-2xl mb-4">Registration & Enforcement</h3>
+            <p class="text-sm leading-relaxed text-muted">
+              Comprehensive clearance searches, USPTO applications, and <strong>Office Action responses</strong>.
+              We handle TTAB opposition proceedings to defend your brand identity and advise on
+              international registration through the Madrid Protocol.
+            </p>
+          </div>
+
+          <!-- Supporting services — compact -->
+          <div class="card card-hover p-8 relative lg:col-span-3">
+            <div class="text-xs font-bold tracking-widest mb-4" style="color: var(--accent-blue);">COPYRIGHT</div>
+            <h3 class="text-lg mb-3">Copyright & Software IP</h3>
+            <p class="text-sm leading-relaxed text-muted">
+              Registration and licensing for creative works, <strong>SaaS platforms, and source code</strong>.
+              Secure ownership rights and handle DMCA takedown notices.
+            </p>
+          </div>
+
+          <div class="card card-hover p-8 relative lg:col-span-3">
+            <div class="text-xs font-bold tracking-widest mb-4" style="color: var(--accent-blue);">TRADE SECRETS</div>
+            <h3 class="text-lg mb-3">Trade Secret Protection</h3>
+            <p class="text-sm leading-relaxed text-muted">
+              Drafting <strong>NDAs and confidentiality agreements</strong>.
+              We help companies audit trade secrets and pursue misappropriation claims.
+            </p>
+          </div>
+
+          <div class="card card-hover p-8 relative lg:col-span-3">
+            <div class="text-xs font-bold tracking-widest mb-4" style="color: var(--accent-blue);">PORTFOLIO</div>
+            <h3 class="text-lg mb-3">Global IP Strategy</h3>
+            <p class="text-sm leading-relaxed text-muted">
+              Long-term IP planning and foreign filing (PCT/Madrid Protocol).
+              Build defensible assets that support <strong>valuation and exits</strong>.
+            </p>
+          </div>
+
+          <div class="card card-hover p-8 relative lg:col-span-3">
+            <div class="text-xs font-bold tracking-widest mb-4" style="color: var(--accent-blue);">DUE DILIGENCE</div>
+            <h3 class="text-lg mb-3">M&amp;A &amp; Licensing</h3>
+            <p class="text-sm leading-relaxed text-muted">
+              IP audits for <strong>mergers and acquisitions</strong>. We structure technology
+              transfer agreements and assess IP risks for investors.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Approach -->
+    <section id="approach" class="py-24 sm:py-32" style="background: linear-gradient(135deg, var(--navy-blue) 0%, var(--navy-dark) 100%); color: var(--off-white);">
+      <div class="max-w-7xl mx-auto px-5 sm:px-8">
+        <div class="grid lg:grid-cols-12 gap-16 items-center">
+          <div class="lg:col-span-5">
+            <div class="section-number" style="color: var(--accent-blue);">02 — Our Approach</div>
+            <h2 class="text-4xl sm:text-5xl mb-6" style="color: var(--off-white);">Strategic, Partner-Led IP Counsel</h2>
+            <div class="detail-line" aria-hidden="true"></div>
+            <p class="mt-6 text-lg leading-relaxed" style="color: rgba(250, 250, 248, 0.75);">
+              Intellectual property is a business tool, not a checkbox. We deliver sophisticated IP counsel
+              with partner-level attention, transparent communication, and execution aligned to your goals.
+            </p>
+          </div>
+
+          <div class="lg:col-span-7 grid sm:grid-cols-2 gap-6">
+            <div class="card p-8" style="background: rgba(250, 250, 248, 0.05); border-color: rgba(0, 153, 255, 0.2);">
+              <div class="text-xs font-bold tracking-widest mb-3" style="color: var(--accent-blue);">DIRECT ACCESS</div>
+              <h3 class="text-lg mb-3" style="color: var(--off-white);">Partner-Led Representation</h3>
+              <p class="text-sm leading-relaxed" style="color: rgba(250, 250, 248, 0.7);">
+                Work directly with experienced attorneys. No junior associates, no layers—
+                just accountable counsel and fast, informed decisions.
+              </p>
+            </div>
+
+            <div class="card p-8" style="background: rgba(250, 250, 248, 0.05); border-color: rgba(0, 153, 255, 0.2);">
+              <div class="text-xs font-bold tracking-widest mb-3" style="color: var(--accent-blue);">BUSINESS FOCUS</div>
+              <h3 class="text-lg mb-3" style="color: var(--off-white);">Strategy Before Filing</h3>
+              <p class="text-sm leading-relaxed" style="color: rgba(250, 250, 248, 0.7);">
+                Every filing is positioned to support your business objectives—
+                whether that's enforcement, licensing, market entry, or investor diligence.
+              </p>
+            </div>
+
+            <div class="card p-8" style="background: rgba(250, 250, 248, 0.05); border-color: rgba(0, 153, 255, 0.2);">
+              <div class="text-xs font-bold tracking-widest mb-3" style="color: var(--accent-blue);">EFFICIENT EXECUTION</div>
+              <h3 class="text-lg mb-3" style="color: var(--off-white);">Predictable Scope & Cost</h3>
+              <p class="text-sm leading-relaxed" style="color: rgba(250, 250, 248, 0.7);">
+                Clear engagement terms, defined deliverables, and transparent budgets.
+                Big-firm expertise without big-firm inefficiency.
+              </p>
+            </div>
+
+            <div class="card p-8" style="background: rgba(250, 250, 248, 0.05); border-color: rgba(0, 153, 255, 0.2);">
+              <div class="text-xs font-bold tracking-widest mb-3" style="color: var(--accent-blue);">LONG-TERM VALUE</div>
+              <h3 class="text-lg mb-3" style="color: var(--off-white);">Built for Growth</h3>
+              <p class="text-sm leading-relaxed" style="color: rgba(250, 250, 248, 0.7);">
+                We help clients scale IP strategy as they expand products,
+                enter new markets, and build defensible competitive positions.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Expertise -->
+    <section id="expertise" class="py-24 sm:py-32">
+      <div class="max-w-7xl mx-auto px-5 sm:px-8">
+        <div class="section-number">03 — Industries We Serve</div>
+        <h2 class="text-4xl sm:text-5xl mb-12">Technical & Industry Expertise</h2>
+
+        <div class="grid lg:grid-cols-3 gap-8">
+          <div>
+            <h3 class="text-xl mb-4 flex items-center gap-3">
+              <span style="color: var(--accent-blue);">◆</span>
+              SaaS, AI & Software
+            </h3>
+            <p class="text-sm leading-relaxed text-muted">
+              Protecting <strong>enterprise SaaS</strong>, artificial intelligence (AI/ML) algorithms, 
+              and FinTech platforms. We expertly navigate <em>Alice</em> (Section 101) eligibility challenges.
+            </p>
+          </div>
+
+          <div>
+            <h3 class="text-xl mb-4 flex items-center gap-3">
+              <span style="color: var(--accent-blue);">◆</span>
+              Consumer & Action Sports
+            </h3>
+            <p class="text-sm leading-relaxed text-muted">
+              Trademark and design patent strategies for <strong>apparel, footwear, and sporting goods</strong>. 
+              Protecting brand identity in the competitive lifestyle and e-commerce markets.
+            </p>
+          </div>
+
+          <div>
+            <h3 class="text-xl mb-4 flex items-center gap-3">
+              <span style="color: var(--accent-blue);">◆</span>
+              MedTech & Life Sciences
+            </h3>
+            <p class="text-sm leading-relaxed text-muted">
+              Counsel for Orange County's vibrant <strong>medical device</strong> sector. 
+              Patents for surgical instruments, diagnostics, and digital health technologies.
+            </p>
+          </div>
+
+          <div>
+            <h3 class="text-xl mb-4 flex items-center gap-3">
+              <span style="color: var(--accent-blue);">◆</span>
+              Aerospace & Manufacturing
+            </h3>
+            <p class="text-sm leading-relaxed text-muted">
+              Industrial innovation protection for <strong>aerospace components</strong>, 
+              defense technologies, robotics, and advanced manufacturing processes.
+            </p>
+          </div>
+
+          <div>
+            <h3 class="text-xl mb-4 flex items-center gap-3">
+              <span style="color: var(--accent-blue);">◆</span>
+              Gaming & Digital Media
+            </h3>
+            <p class="text-sm leading-relaxed text-muted">
+              IP strategies for <strong>video game developers</strong>, e-sports organizations, 
+              and content creators. Licensing, copyright registration, and asset protection.
+            </p>
+          </div>
+
+          <div>
+            <h3 class="text-xl mb-4 flex items-center gap-3">
+              <span style="color: var(--accent-blue);">◆</span>
+              Venture-Backed Startups
+            </h3>
+            <p class="text-sm leading-relaxed text-muted">
+              Preparing IP portfolios for <strong>Series A/B funding rounds</strong> and due diligence. 
+              We help founders secure the rights investors demand before writing the check.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Process CTA -->
+    <section class="py-12 sm:py-20 border-y" style="border-color: var(--border-light);">
+      <div class="max-w-7xl mx-auto px-5 sm:px-8">
+        <div class="card p-6 sm:p-8 lg:p-12 flex flex-col lg:flex-row items-center justify-between gap-6 lg:gap-8 relative">
+          <div class="corner-accent top-left" aria-hidden="true"></div>
+          <div class="corner-accent bottom-right" aria-hidden="true"></div>
+
+          <div class="max-w-2xl">
+            <h2 class="text-3xl sm:text-4xl mb-4">Ready to protect your intellectual property?</h2>
+            <p class="text-lg text-muted">
+              Schedule a consultation to discuss your IP needs. We'll assess your situation,
+              outline strategic options, and recommend a clear path forward.
+            </p>
+          </div>
+
+          <div class="flex flex-col sm:flex-row gap-4 w-full lg:w-auto shrink-0">
+            <a href="#contact" class="btn-primary text-center whitespace-nowrap">
+              <span>Schedule Consultation</span>
+            </a>
+            <a href="tel:7149244377" class="btn-secondary text-center whitespace-nowrap">
+              (714) 924-4377
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Client Testimonials -->
+    <section class="py-24 sm:py-32">
+      <div class="max-w-7xl mx-auto px-5 sm:px-8">
+        <div class="section-number">04 — Client Testimonials</div>
+        <h2 class="text-4xl sm:text-5xl mb-12">What Our Clients Say</h2>
+
+        <!-- Featured testimonial — full width -->
+        <figure class="card p-10 mb-6">
+          <div class="text-6xl mb-6" style="color: var(--accent-blue); line-height: 1; font-family: var(--font-serif);" aria-hidden="true">"</div>
+          <blockquote>
+            <p class="text-lg leading-relaxed mb-8 text-muted">
+              I highly recommend Garvey Adam LLP. I am a small business owner and last year we hired them to assist us with trademark infringement litigation that our company had faced. Our legal issue was resolved in a very favorable manner and we are so thankful that we used Garvey Adam to represent us.
+            </p>
+          </blockquote>
+          <div class="detail-line" style="margin: 0 0 1.25rem; opacity: 0.3;" aria-hidden="true"></div>
+          <figcaption>
+            <div class="font-bold" style="color: var(--charcoal);">A. Alvarez</div>
+            <div class="text-sm" style="color: var(--primary-blue);">Small Business Owner</div>
+          </figcaption>
+        </figure>
+
+        <!-- Compact testimonials — three columns -->
+        <div class="grid md:grid-cols-3 gap-6">
+          <figure class="card p-8">
+            <div class="text-4xl mb-4" style="color: var(--accent-blue); line-height: 1;" aria-hidden="true">"</div>
+            <blockquote>
+              <p class="text-sm leading-relaxed mb-6 text-muted">
+                The office of Garvey Adam LLP was fast and efficient with their trademark services performed on my behalf. I plan to keep them on board as well as recommending to my other business colleagues.
+              </p>
+            </blockquote>
+            <div class="detail-line" style="margin: 0 0 1rem; opacity: 0.3;" aria-hidden="true"></div>
+            <figcaption>
+              <div class="font-bold" style="color: var(--charcoal);">B. Parker</div>
+              <div class="text-sm" style="color: var(--primary-blue);">Business Owner</div>
+            </figcaption>
+          </figure>
+
+          <figure class="card p-8">
+            <div class="text-4xl mb-4" style="color: var(--accent-blue); line-height: 1;" aria-hidden="true">"</div>
+            <blockquote>
+              <p class="text-sm leading-relaxed mb-6 text-muted">
+                If you are looking for expert knowledge and great customer care, Garvey Adam LLP is your firm.
+              </p>
+            </blockquote>
+            <div class="detail-line" style="margin: 0 0 1rem; opacity: 0.3;" aria-hidden="true"></div>
+            <figcaption>
+              <div class="font-bold" style="color: var(--charcoal);">A. Mooradian</div>
+              <div class="text-sm" style="color: var(--primary-blue);">Client</div>
+            </figcaption>
+          </figure>
+
+          <figure class="card p-8">
+            <div class="text-4xl mb-4" style="color: var(--accent-blue); line-height: 1;" aria-hidden="true">"</div>
+            <blockquote>
+              <p class="text-sm leading-relaxed mb-6 text-muted">
+                Extremely professional, knowledgeable, detailed and thorough. I wish working with all lawyers and law firms were this easy and smooth. Was (and still is!) such a pleasure working with Garvey Adam.
+              </p>
+            </blockquote>
+            <div class="detail-line" style="margin: 0 0 1rem; opacity: 0.3;" aria-hidden="true"></div>
+            <figcaption>
+              <div class="font-bold" style="color: var(--charcoal);">O. Ouenes</div>
+              <div class="text-sm" style="color: var(--primary-blue);">Business Owner</div>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="py-24 sm:py-32" style="background-color: var(--off-white);">
+      <div class="max-w-7xl mx-auto px-5 sm:px-8">
+        <div class="grid lg:grid-cols-12 gap-12 items-start">
+          <div class="lg:col-span-5">
+            <div class="section-number">05 — Get In Touch</div>
+            <h2 class="text-4xl sm:text-5xl mb-6">Schedule a Consultation</h2>
+            <div class="detail-line" aria-hidden="true"></div>
+            <p class="mt-6 text-lg leading-relaxed text-muted">
+              Discuss your IP needs with an experienced attorney. We'll review your situation,
+              assess protection opportunities, and outline strategic recommendations with clear next steps.
+            </p>
+
+            <div class="mt-10 space-y-6">
+              <div class="card p-8">
+                <div class="text-xs font-bold tracking-widest mb-3" style="color: var(--accent-blue);">PHONE</div>
+                <a class="text-2xl font-bold hover:text-black transition-colors"
+                   style="color: var(--primary-blue); font-family: var(--font-serif);"
+                   href="tel:7149244377">
+                  (714) 924-4377
+                </a>
+                <p class="mt-3 text-sm text-muted">
+                  For time-sensitive matters or immediate questions.
+                </p>
+              </div>
+
+              <div class="card p-8 relative">
+  <div class="corner-accent top-left" aria-hidden="true"></div>
+  <div class="corner-accent bottom-right" aria-hidden="true"></div>
+
+  <div class="text-xs font-bold tracking-widest mb-3" style="color: var(--accent-blue);">MESSAGE</div>
+  <p class="text-sm mb-6 text-muted">
+    Send us a message and we'll get back to you promptly.
+  </p>
+
+  <div id="contact-form-container">
+    <form id="contact-form" action="https://formspree.io/f/mjgrpnpv" method="POST">
+      
+      <div class="form-group">
+        <label for="name" class="form-label">Full Name</label>
+        <input type="text" id="name" name="name" class="form-input" placeholder="e.g. John Smith" autocomplete="name" required>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+        <div class="form-group">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" id="email" name="email" class="form-input" placeholder="john@company.com" autocomplete="email" required>
+        </div>
+        <div class="form-group">
+          <label for="phone" class="form-label">Phone</label>
+          <input type="tel" id="phone" name="phone" class="form-input" placeholder="(555) 123-4567" autocomplete="tel">
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="service" class="form-label">Area of Interest</label>
+        <div class="select-wrapper">
+          <select id="service" name="service" class="form-select">
+            <option value="" disabled selected>Select a Service...</option>
+            <option value="patent">Patent Filing & Prosecution</option>
+            <option value="trademark">Trademark Registration</option>
+            <option value="litigation">IP Litigation / Dispute</option>
+            <option value="contract">Licensing / Contracts</option>
+            <option value="other">Other Inquiry</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="message" class="form-label">How can we help?</label>
+        <textarea id="message" name="message" class="form-textarea" placeholder="Briefly describe your IP needs... (do not include confidential or proprietary information)"></textarea>
+      </div>
+
+      <button type="submit" id="submit-btn" class="btn-primary w-full text-center">
+        <span id="btn-text">Send Message</span>
+      </button>
+      <p id="form-status" class="mt-4 text-sm text-center hidden" style="color: var(--error);"></p>
+    </form>
+
+    <div id="success-message" class="hidden text-center py-10 animate-in">
+      <svg class="checkmark-svg" viewBox="0 0 50 50" aria-hidden="true">
+        <circle class="checkmark-circle" cx="25" cy="25" r="24"/>
+        <polyline class="checkmark-check" points="14,26 21,33 36,18"/>
+      </svg>
+      <h3 class="text-2xl mb-4" style="color: var(--primary-blue);">Message Sent!</h3>
+      <p class="text-muted mb-6">Thank you for contacting Garvey Adam LLP. We have received your inquiry and will get back to you shortly.</p>
+      <button onclick="location.reload()" class="btn-secondary text-sm">Send Another</button>
+    </div>
+  </div>
+
+  <script>
+    const form = document.getElementById("contact-form");
+    const container = document.getElementById("contact-form-container");
+    const successMessage = document.getElementById("success-message");
+    const submitBtn = document.getElementById("submit-btn");
+    const btnText = document.getElementById("btn-text");
+    const status = document.getElementById("form-status");
+
+    async function handleSubmit(event) {
+      event.preventDefault();
+      
+      const data = new FormData(event.target);
+      
+      // Update button state
+      btnText.innerText = "Sending...";
+      submitBtn.disabled = true;
+      submitBtn.style.opacity = "0.7";
+      submitBtn.style.cursor = "not-allowed";
+
+      try {
+        const response = await fetch(event.target.action, {
+          method: form.method,
+          body: data,
+          headers: {
+            'Accept': 'application/json'
+          }
+        });
+
+        if (response.ok) {
+          // Success: Hide form, show success message
+          form.style.display = "none";
+          successMessage.classList.remove("hidden");
+          form.reset();
+        } else {
+          // Error handling
+          const jsonData = await response.json();
+          status.classList.remove("hidden");
+          
+          if (Object.hasOwn(jsonData, 'errors')) {
+            status.innerText = jsonData["errors"].map(error => error["message"]).join(", ");
+          } else {
+            status.innerText = "Oops! There was a problem submitting your form.";
+          }
+          
+          // Reset button state
+          btnText.innerText = "Send Message";
+          submitBtn.disabled = false;
+          submitBtn.style.opacity = "1";
+          submitBtn.style.cursor = "pointer";
+        }
+      } catch (error) {
+        status.classList.remove("hidden");
+        status.innerText = "Oops! There was a problem submitting your form.";
+        
+        // Reset button state
+        btnText.innerText = "Send Message";
+        submitBtn.disabled = false;
+        submitBtn.style.opacity = "1";
+        submitBtn.style.cursor = "pointer";
+      }
+    }
+
+    form.addEventListener("submit", handleSubmit);
+  </script>
+</div>
+            </div>
+          </div>
+
+          <div class="lg:col-span-7">
+            <div class="card p-8 relative mt-10 lg:mt-64">
+              <div class="corner-accent top-left" aria-hidden="true"></div>
+              <div class="corner-accent bottom-right" aria-hidden="true"></div>
+
+              <div class="text-xs font-bold tracking-widest mb-3" style="color: var(--accent-blue);">CALENDAR</div>
+              <p class="text-sm mb-6 text-muted">
+                Pick a day and time for a free phone consultation.
+              </p>
+
+              <!-- Cal inline embed code begins -->
+              <div class="cal-embed-frame" id="my-cal-inline-15min"></div>
+              <p class="mt-4 text-xs text-center text-faint">
+                If the calendar does not load, <a href="https://cal.com/garveyadam/15min" target="_blank" rel="noopener" style="color: var(--primary-blue); text-decoration: underline;">schedule directly at cal.com</a>.
+              </p>
+              <script type="text/javascript">
+                (function (C, A, L) { let p = function (a, ar) { a.q.push(ar); }; let d = C.document; C.Cal = C.Cal || function () { let cal = C.Cal; let ar = arguments; if (!cal.loaded) { cal.ns = {}; cal.q = cal.q || []; d.head.appendChild(d.createElement("script")).src = A; cal.loaded = true; } if (ar[0] === L) { const api = function () { p(api, arguments); }; const namespace = ar[1]; api.q = api.q || []; if(typeof namespace === "string"){cal.ns[namespace] = cal.ns[namespace] || api;p(cal.ns[namespace], ar);p(cal, ["initNamespace", namespace]);} else p(cal, ar); return;} p(cal, ar); }; })(window, "https://app.cal.com/embed/embed.js", "init");
+              Cal("init", "15min", {origin:"https://app.cal.com"});
+
+                Cal.ns["15min"]("inline", {
+                  elementOrSelector:"#my-cal-inline-15min",
+                  config: {"layout":"month_view","useSlotsViewOnSmallScreen":"true","theme":"light"},
+                  calLink: "garveyadam/15min",
+                });
+
+                Cal.ns["15min"]("ui", {"theme":"light","cssVarsPerTheme":{"light":{"cal-brand":"#0072CE"},"dark":{"cal-brand":"#fafafa"}},"hideEventTypeDetails":true,"layout":"month_view"});
+                </script>
+                <!-- Cal inline embed code ends -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="py-16 border-t bg-surface" style="border-color: var(--border-light);">
+    <div class="max-w-7xl mx-auto px-5 sm:px-8">
+      <div class="flex items-center gap-3 mb-4">
+        <img src="logo-branded.svg" alt="Garvey Adam LLP" class="h-12 w-auto" width="49" height="48" loading="lazy" />
+        <div class="leading-none">
+          <span class="text-2xl font-bold tracking-tight" style="font-family: var(--font-serif);">GARVEY ADAM</span>
+          <span class="text-base tracking-widest ml-2" style="color: var(--primary-blue); font-family: var(--font-serif);">LLP</span>
+        </div>
+      </div>
+
+      <p class="text-sm mb-6 text-subdued">
+        19800 MacArthur Blvd., Suite 1070<br>
+        Irvine, CA 92612
+      </p>
+
+      <div class="detail-line" style="margin: 2.5rem 0; opacity: 0.3;" aria-hidden="true"></div>
+
+      <div class="text-xs flex flex-wrap gap-6 text-faint">
+        <p>
+          © <span id="year"></span> Garvey Adam LLP. All rights reserved.
+        </p>
+        <a href="privacy-policy.html" class="hover:text-black transition-colors">Privacy Policy</a>
+        <a href="terms.html" class="hover:text-black transition-colors">Terms & Conditions</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+
+  <script>
+    (function () {
+      const toggle = document.getElementById('menu-toggle');
+      const menu = document.getElementById('mobile-menu');
+      if (!toggle || !menu) return;
+
+      function openMenu() {
+        toggle.setAttribute('aria-expanded', 'true');
+        toggle.setAttribute('aria-label', 'Close navigation menu');
+        menu.setAttribute('aria-hidden', 'false');
+        menu.classList.add('is-open');
+      }
+
+      function closeMenu() {
+        toggle.setAttribute('aria-expanded', 'false');
+        toggle.setAttribute('aria-label', 'Open navigation menu');
+        menu.setAttribute('aria-hidden', 'true');
+        menu.classList.remove('is-open');
+      }
+
+      toggle.addEventListener('click', function () {
+        toggle.getAttribute('aria-expanded') === 'true' ? closeMenu() : openMenu();
+      });
+
+      // Close on any link click inside the menu
+      menu.querySelectorAll('a').forEach(function (link) {
+        link.addEventListener('click', closeMenu);
+      });
+
+      // Close on Escape key, return focus to toggle
+      document.addEventListener('keydown', function (e) {
+        if (e.key === 'Escape' && toggle.getAttribute('aria-expanded') === 'true') {
+          closeMenu();
+          toggle.focus();
+        }
+      });
+
+      // Close if window resizes past lg breakpoint (1024px)
+      window.addEventListener('resize', function () {
+        if (window.innerWidth >= 1024) closeMenu();
+      });
+    })();
+  </script>
+
+  <script>
+    /* Easter egg for developers */
+    console.log('%c⚖ Garvey Adam LLP', 'font-size:18px;font-weight:bold;color:#0072CE;');
+    console.log('%cProtecting ideas. Advancing innovation.', 'font-size:12px;color:#4A4A4A;');
+    console.log('%cIntellectual property counsel · garveyadam.com', 'font-size:11px;color:#999999;');
+  </script>
+</body>
+</html>
